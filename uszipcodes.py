@@ -2,7 +2,7 @@ import csv
 
 # Define the path to your CSV file
 csv_file = 'uszips.csv'  # Update this with your CSV file's path
-insert_template = "INSERT INTO us_zip_codes VALUES ({}, \"{}\", \"{}\", \"{}\", \"{}\", \"{}\");"
+insert_template = "INSERT INTO us_zip_codes VALUES (\"{}\", \"{}\", \"{}\", \"{}\", \"{}\", \"{}\");"
 
 # Open the CSV file and process its contents
 with open(csv_file, 'r') as file:
