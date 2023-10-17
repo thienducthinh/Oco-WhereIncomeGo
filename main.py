@@ -36,5 +36,5 @@ def totalTaxes():
 
 if __name__ == '__main__':
     def main():
-        taxes.IncomeTax(gross_income, zipcode).federalTax()
+        taxes.IncomeTax(gross_income, zipcode, filing_status="'Single'").federalTax()
     main()
